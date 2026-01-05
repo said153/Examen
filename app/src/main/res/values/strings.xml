@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Rastreo IPN</string>
+    <string name="google_maps_key">YOUR_API_KEY_HERE</string>
+
+    <!-- Mensajes comunes -->
+    <string name="permission_required">Permisos necesarios para usar la aplicación</string>
+    <string name="tracking_started">Rastreo iniciado</string>
+    <string name="tracking_stopped">Rastreo detenido</string>
+    <string name="no_gps">GPS no disponible</string>
+    <string name="history_cleared">Historial limpiado</string>
+    <string name="export_success">Exportación exitosa</string>
+    <string name="export_failed">Error en exportación</string>
+
+    <!-- Etiquetas UI -->
+    <string name="start_tracking">Iniciar Rastreo</string>
+    <string name="stop_tracking">Detener Rastreo</string>
+    <string name="view_history">Ver Historial</string>
+    <string name="clear_history">Limpiar Historial</string>
+    <string name="current_location">Ubicación Actual</string>
+    <string name="tracking_status">Estado del Rastreo</string>
+    <string name="active">Activo</string>
+    <string name="inactive">Inactivo</string>
+    <string name="interval_label">Intervalo de actualización</string>
+    <string name="theme_label">Tema</string>
+    <string name="notification_label">Notificación</string>
+
+    <!-- Opciones -->
+    <string-array name="intervals_array">
+        <item>10 segundos</item>
+        <item>60 segundos</item>
+        <item>5 minutos</item>
+    </string-array>
+
+    <string-array name="themes_array">
+        <item>Tema IPN (Guinda)</item>
+        <item>Tema ESCOM (Azul)</item>
+    </string-array>
+</resources>
